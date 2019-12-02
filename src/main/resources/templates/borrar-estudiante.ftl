@@ -8,6 +8,7 @@
                 </h5>
             </div>
             <form action="/estudiante/borrar/${estudiante.matricula?string["0"]}" method="post" class="p-2">
+                <h6>¿Esta seguro de borrar al estudiante ${estudiante.nombre} ${estudiante.apellido} (${estudiante.matricula?string["0"]})?</h6>
                 <button type="submit" class="btn btn-outline-secondary rounded-0 float-right">
                     <i class="fas fa-trash-alt"></i> Borrar
                 </button>
