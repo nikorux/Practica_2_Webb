@@ -6,7 +6,7 @@
         <meta name="viewport"
               content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title></title>
+        <title>Heree</title>
 
         <!-- Font Awesome 5 -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -26,7 +26,7 @@
                 <div class="row p-1">
                     <div class="col-12">
                         <nav class="navbar navbar-expand-lg navbar-light">
-                            <a class="navbar-brand" href="/"><i class="fas fa-chalkboard"></i> </a>
+                            <a class="navbar-brand" href="/"><i class="fas fa-chalkboard"></i>Hereee</a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
@@ -34,7 +34,7 @@
                                 <ul class="navbar-nav mr-auto">
                                     <li class="nav-item">
                                         <a class="btn btn-outline-secondary rounded-0" href="/estudiante/agregar">
-                                            <i class="fas fa-user-plus"></i>
+                                            <i class="fas fa-user-plus"></i> Agregar estudiante
                                         </a>
                                     </li>
                                 </ul>
