@@ -17,13 +17,13 @@
                     </ul>
                     <div class="card-footer mx-auto bg-transparent p-0">
                         <div class="btn-group" role="group">
-                            <a class="btn btn-outline-secondary border-0 rounded-0" type="button" href="/estudiante/${estudiante.matricula?string["0"]}">
+                            <a class="btn btn-outline-primary border-0 rounded-0" type="button" href="/estudiante/${estudiante.matricula?string["0"]}">
                                 <i class="fas fa-user"></i> Mostrar
                             </a>
-                            <a class="btn btn-outline-secondary border-0 rounded-0" type="button" href="/estudiante/editar/${estudiante.matricula?string["0"]}">
+                            <a class="btn btn-outline-primary border-0 rounded-0" type="button" href="/estudiante/editar/${estudiante.matricula?string["0"]}">
                                 <i class="fas fa-user-edit"></i> Editar
                             </a>
-                            <a class="btn btn-outline-secondary border-0 rounded-0" type="button" href="/estudiante/borrar/${estudiante.matricula?string["0"]}">
+                            <a class="btn btn-outline-primary border-0 rounded-0" type="button" href="/estudiante/borrar/${estudiante.matricula?string["0"]}">
                                 <i class="fas fa-user-slash"></i> Borrar
                             </a>
                         </div>
