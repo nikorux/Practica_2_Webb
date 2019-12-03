@@ -11,6 +11,13 @@ import freemarker.template.Version;
 
 public class Main {
     public static void main(String[] args) {
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        if (processBuilder.environment().get("PORT") != null) {
+            port(Integer.parseInt(processBuilder.environment().get("PORT")));
+        }else{
+            port(8080);
+        }
+
         final Configuration configuration = new Configuration(new Version(2, 3, 28));
         configuration.setClassForTemplateLoading(Main.class, "/");
 
