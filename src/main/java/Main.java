@@ -15,7 +15,7 @@ public class Main {
         if (processBuilder.environment().get("PORT") != null) {
             port(Integer.parseInt(processBuilder.environment().get("PORT")));
         }else{
-            port(8080);
+            port(8081);
         }
 
         final Configuration configuration = new Configuration(new Version(2, 3, 28));
